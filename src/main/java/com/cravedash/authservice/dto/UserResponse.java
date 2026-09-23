@@ -6,7 +6,7 @@ public record UserResponse(
         String username,
         String email,
         String role,
-
+        String restaurantName,
         Long restaurantId
 
 ) {}

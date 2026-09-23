@@ -10,6 +10,7 @@ public record RegisterRequest(
         @NotBlank
         String username,
 
+
         @NotBlank
         @Email
         String email,
