@@ -33,6 +33,8 @@ public class AuthController {
                 user.getEmail(),
                 user.getRole().name(),
                 user.getRestaurantId()
+
+
         );
 
         return ResponseEntity
